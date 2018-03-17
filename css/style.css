@@ -1,0 +1,91 @@
+body {
+  background-color: #2d3436;
+}
+
+.programa {
+  display: flex;
+}
+
+h1 {
+  margin-bottom: 5px;
+}
+
+.tekstas {
+  flex: 1 auto;
+  color: white;
+  font-family: "Avenir Next";
+}
+
+#block {
+  background: linear-gradient(#b2bec3, #a2adb2);
+  height: 25px;
+  border-radius: 5px 5px 0 0;
+  margin-bottom: 10px;
+  border-bottom: 0.5px #626e72 solid;
+  display: flex;
+  align-items: center;
+}
+
+#one {
+  background-color: #ff7675;
+  margin-left: 10px;
+  border: 0.5px #d86261 solid;
+}
+
+#two {
+  background-color: #fdcb6e;
+  border: 0.5px #bc964f solid;
+}
+
+#three {
+  background-color: #00b894;
+  border: 0.5px #00846a solid;
+}
+
+.circle {
+  width: 12px;
+  height: 12px;
+  border-radius: 100px;
+  margin: 3px;
+}
+
+p {
+  margin: 0;
+  padding: 5px;
+}
+
+#commandline {
+  display: flex;
+  align-items: center;
+  width: 850px;
+}
+
+input[type=text] {
+  border: none;
+  background-color: white;
+  color: black;
+  font-size: 15px;
+  font-family: Inconsolata;
+  width: 80%;
+}
+
+textarea:focus, input:focus{
+  outline: none;
+}
+
+.container {
+  margin: 30px;
+}
+
+#console {
+  width: 850px;
+  min-height: 400px;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px #2d3436 solid;
+  color: black;
+}
+
+#write {
+  width: 60%;
+}
